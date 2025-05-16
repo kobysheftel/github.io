@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yacov Sheftel - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #0078d4;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #004e8c;
+        }
+        
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0078d4;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #e6f3ff;
+            color: #0078d4;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .experience-item {
+            margin-bottom: 25px;
+        }
+        
+        .experience-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .experience-company {
+            color: #0078d4;
+            margin-bottom: 5px;
+        }
+        
+        .experience-date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        ul.passion-list {
+            padding-left: 20px;
+        }
+        
+        ul.passion-list li {
+            margin-bottom: 8px;
+        }
+        
+        .passion-highlight {
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0078d4;
+            color: white;
+        }
+        
+        .contact-link {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/api/placeholder/150/150" alt="Profile Picture" class="profile-pic">
+        <h1>Yacov Sheftel</h1>
+        <p class="tagline">Retired Entrepreneur | Pro Bono Advisor | Based in Tel Aviv</p>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a 69-year-old retired entrepreneur, born, raised, and based in Tel Aviv. A widower, father of four, and grandfather of four, I am now focused on contributing my time, energy, and accumulated wisdom to pro bono initiatives—supporting individuals, small organizations, and associations in realizing their goals with clarity and purpose.</p>
+            <p>With decades of experience initiating, managing, and promoting projects across technical, commercial, and interpersonal domains, I have often been called upon to provide tailored guidance in areas such as negotiation, project management, and sales—whether of assets, services, or abstract ideas.</p>
+            <p>Beyond my professional achievements, I consider myself an <strong>intellectual</strong> in the original sense: someone drawn to ideas with no immediate utility. I am deeply curious about politics, relationships, psychology, sports, and human behavior—areas that shape lives and societies, even if their outcomes can't always be measured.</p>
+            <p>At this stage of life, I'm not seeking compensation—only engagement. I'm eager to mentor, advise, and support others who are building, struggling, or searching, and I bring to those interactions a spirit of generosity, clarity, and sincere curiosity.</p>
+        </section>
+        
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-title">Founder & CEO</div>
+                <div class="experience-company">Head-On Ltd.</div>
+                <div class="experience-date">1986 - 2020</div>
+                <p>Founded and led a company specializing in OSS (Operations Support Systems), event, network, and service-level management, as well as system security and configuration. Head-On served top-tier clients including cellular providers, the Ministry of Defense, the IDF, and the Israel Electric Corporation. The company managed over 50 products and was an authorized IBM distributor and vendor.</p>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-title">Education</div>
+                <div class="experience-company">B.A. in Mathematics and Computer Science</div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Professional Skills</h2>
+            <div class="skills">
+                <div class="skill">Communication</div>
+                <div class="skill">Systems Thinking</div>
+                <div class="skill">Project Management</div>
+                <div class="skill">Negotiation</div>
+                <div class="skill">Leadership</div>
+                <div class="skill">Analytical Abilities</div>
+                <div class="skill">Team Collaboration</div>
+                <div class="skill">Sales</div>
+                <div class="skill">Mentoring</div>
+                <div class="skill">Independent Learning</div>
+            </div>
+        </section>
+        
+        <section id="interests">
+            <h2>Personal Interests</h2>
+            <p>My personal passions include:</p>
+            <ul class="passion-list">
+                <li><span class="passion-highlight">Music</span> – especially jazz and progressive rock (Pink Floyd, ELP)</li>
+                <li><span class="passion-highlight">Football</span> – as a thoughtful and engaged follower</li>
+                <li><span class="passion-highlight">Crosswords & Writing</span> – for the joy of language, logic, and reflection</li>
+                <li><span class="passion-highlight">Politics</span> – exploring ideas and their impacts on society</li>
+                <li><span class="passion-highlight">Psychology</span> – understanding human behavior and relationships</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'm always open to discussing new mentoring opportunities, collaborations, or pro bono advisory roles. Feel free to reach out if you believe I might be able to contribute to your project or initiative.</p>
+            <p>Email: YacovSheftel@outlook.com</p>
+            <p>Location: Tel Aviv, Israel</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Yacov Sheftel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
